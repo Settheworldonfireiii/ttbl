@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5A084D4422DC968300C26F3E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A084D4322DC968300C26F3E /* main.cpp */; };
+		5A084D4D22DC9D1500C26F3E /* Service.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A084D4B22DC9D1500C26F3E /* Service.cpp */; };
+		5A084D5022DCA27700C26F3E /* Time.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A084D4E22DCA27700C26F3E /* Time.cpp */; };
+		5A084D5322DCBF6000C26F3E /* ServiceHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A084D5122DCBF6000C26F3E /* ServiceHandler.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		5A084D4022DC968300C26F3E /* ttbl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ttbl; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A084D4322DC968300C26F3E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5A084D4B22DC9D1500C26F3E /* Service.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Service.cpp; sourceTree = "<group>"; };
+		5A084D4C22DC9D1500C26F3E /* Service.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Service.hpp; sourceTree = "<group>"; };
+		5A084D4E22DCA27700C26F3E /* Time.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Time.cpp; sourceTree = "<group>"; };
+		5A084D4F22DCA27700C26F3E /* Time.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Time.hpp; sourceTree = "<group>"; };
+		5A084D5122DCBF6000C26F3E /* ServiceHandler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ServiceHandler.cpp; sourceTree = "<group>"; };
+		5A084D5222DCBF6000C26F3E /* ServiceHandler.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ServiceHandler.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +50,12 @@
 		5A084D3722DC968300C26F3E = {
 			isa = PBXGroup;
 			children = (
+				5A084D5122DCBF6000C26F3E /* ServiceHandler.cpp */,
+				5A084D5222DCBF6000C26F3E /* ServiceHandler.hpp */,
+				5A084D4E22DCA27700C26F3E /* Time.cpp */,
+				5A084D4F22DCA27700C26F3E /* Time.hpp */,
+				5A084D4B22DC9D1500C26F3E /* Service.cpp */,
+				5A084D4C22DC9D1500C26F3E /* Service.hpp */,
 				5A084D4222DC968300C26F3E /* ttbl */,
 				5A084D4122DC968300C26F3E /* Products */,
 			);
@@ -118,7 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A084D5022DCA27700C26F3E /* Time.cpp in Sources */,
 				5A084D4422DC968300C26F3E /* main.cpp in Sources */,
+				5A084D5322DCBF6000C26F3E /* ServiceHandler.cpp in Sources */,
+				5A084D4D22DC9D1500C26F3E /* Service.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
